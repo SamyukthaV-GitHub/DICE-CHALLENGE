@@ -1,0 +1,56 @@
+body{
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://rare-gallery.com/uploads/posts/1051416-sunlight-lights-water-minimalism-reflection-blue-simple-dots-dice-light-cloud-weather-hand-atmospheric-phenomenon-computer-wallpaper-atmosphere-of-earth-macro-photograp.jpg");
+    background-size:cover;
+    padding: 20px;
+    
+}
+#head{
+    font-family: Berlin Sans FB Demi;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 75px;
+}
+h2{
+    font-family: MV Boli;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.main{
+    height:80% vh;
+    width:80% vh;
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows:15% 10% 50% 10% 15% ;
+    gap:10px;
+    margin-left: 28%;
+    margin-top: 2%;
+}
+.item{
+    /*border: 2px solid black;
+    background-color: rgba(225,225,225,0.2);*/
+    color: bisque;
+    justify-items: center;
+    align-items:center;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    align-content: center;
+}
+.container{
+    grid-column: span 2;
+}
+#btn{
+    grid-column: span 2;
+}
+#result{
+    grid-column: span 2;
+    align-items: center;
+    font-family: MV Boli;
+    
+}
+#resul{
+    
+    font-size:45px;
+}
